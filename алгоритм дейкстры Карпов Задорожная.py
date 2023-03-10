@@ -5,10 +5,12 @@ n=int(input("сколько будет точек? "))
 a=[]
 for i in range(n):
     a.append([])
-m=[100]
+m=[]
 for i in range(n):
     for j in range(n):
-        a[i].append(int(input()))
+        inp=int(input())
+        a[i].append(inp)
+        m.append(inp)
 rast=[]
 pos=[]
 for i in range(n):
